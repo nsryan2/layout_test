@@ -1,7 +1,15 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <?php include 'index.php'; ?>
-        Test
-    </body>
+<html> 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#DivContent").load("test.html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="DivContent"></div>
+  </body> 
 </html>
